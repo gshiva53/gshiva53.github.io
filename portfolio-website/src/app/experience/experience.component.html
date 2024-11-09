@@ -4,4 +4,9 @@
         <p class="text-end ms-auto">{{time}}</p>
     </div>
     <p>{{company}}</p>
+    <ul>
+        @for (duty of duties; track duty.duty) {
+          <li>{{ duty.duty }}</li>
+        }
+      </ul>
 </div>

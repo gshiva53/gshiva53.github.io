@@ -11,4 +11,5 @@ export class ExperienceComponent {
   @Input() position = ""; 
   @Input() time = ""; 
   @Input() company = ""; 
+  @Input() duties: { duty: string }[] = []; 
 }
