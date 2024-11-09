@@ -10,5 +10,5 @@ import { Component, Input } from '@angular/core';
 export class ProjectComponent {
   @Input() title = ""; 
   @Input() description = "";
-  @Input() pointers = "";  
+  @Input() tasks: {task: string}[] = [];  
 }

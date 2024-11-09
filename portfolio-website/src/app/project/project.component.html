@@ -3,5 +3,9 @@
         <p class="fw-bold">{{title}}</p>
         <p class="text-end ms-auto">{{description}}</p>
     </div>
-    <p>{{pointers}}</p>
+    <ul>
+        @for (task of tasks; track task.task) {
+            <li>{{ task.task }}</li>
+        }
+    </ul>
 </div>
