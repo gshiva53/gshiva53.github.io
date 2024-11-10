@@ -9,6 +9,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { ProjectComponent } from './project/project.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { FooterComponent } from './footer/footer.component';
+import { PersonalProjectsComponent } from './personal-projects/personal-projects.component';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     SkillsComponent,
     ProjectComponent,
     ProjectsComponent,
-    FooterComponent
+    FooterComponent, 
+    PersonalProjectsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
