@@ -3,9 +3,17 @@
 # Compiled output
 /dist
 dist/
+test-space/
+../test-space
+../test-space/
+../test-space/*
+*/test-space/*
+../../test-space
+../../test-space/
 /tmp
 /out-tsc
 /bazel-out
+test-space/
 
 # Node
 /node_modules
