@@ -2,7 +2,7 @@
 Portfolio Website hosted on Github pages. 
 
 # TO DO
-- Add new projects and other stuff. 
+- Image relative paths in the projects components are broken. Fix it. 
 - Use Tewmoji in the project. 
 -
 - Thesis a a project with poster, demo video, research competition tag. 
